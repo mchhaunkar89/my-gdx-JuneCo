@@ -46,6 +46,8 @@ public class JuneCo implements ApplicationListener {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 		
+		System.out.println("test");
+		
 		batch.setProjectionMatrix(camera.combined);
 		batch.begin();
 		sprite.draw(batch);
